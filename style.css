@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root{
+    --cor-de-fundo:#181C14;
+    --cor-primaria:#ECDFCC;
+    --cor-secundaria:#697565;
+    --fonte:"playfair Display",serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--cor-primaria);
+    font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
